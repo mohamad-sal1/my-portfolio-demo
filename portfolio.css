@@ -1,0 +1,249 @@
+hr {
+  border: none;
+  width: 90%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 3px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+  border-color:orange;
+
+}
+h1{
+ 
+  font-style: bold;
+  text-align:center;
+   font-family: "Inconsolata", Consolas, monospace;
+  font-size: 2em;
+
+  
+}
+
+
+ul {
+    
+  position:fixed;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 991px) {
+  .menu-content {
+   
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .list-menu {
+    display: flex!important;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.3);
+  }
+
+  .item-menu {
+    flex: auto;
+  }
+  .item-menu .link-menu {
+    padding: 15px;
+    color: #555;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+    text-align: center
+  }
+
+  .item-menu .link-menu:hover {
+    background: orange;
+    color: #fff;
+  }
+  
+  .navegacao-mobile {
+    display: none!important;
+  }
+ }
+
+.navegacao-mobile {
+  background: #ccc;
+  padding: 10px;
+  display: block;
+  width: 53px;
+  cursor: pointer;
+}
+.linha-menu {
+  width: 25px;
+  height: 3px;
+  border-radius: 5px;
+  background: #555;
+  margin: 4px;
+  display: block;
+}
+.input-menu-all {
+  display: none!important;
+}
+.list-menu {
+  display: none;
+   width: 100%;
+   background: #fff;
+   box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.3);
+}
+.item-menu {
+    flex: auto;
+  }
+  .item-menu .link-menu {
+    padding: 15px;
+    color: #555;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+.input-menu-all:checked ~ .list-menu {
+       display: block;
+      
+}
+.input-menu-all:checked ~ .list-menu .link-menu  {
+  text-align: left;
+}
+
+
+
+  .background-img{
+  position: relative;
+  height:  100vh;
+  z-index: 1;
+  text-align: center;
+  font-size: 50px;
+  color: orange;
+  line-height: 100vh;
+}
+
+.background-img{
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('backgroundimag.jpg') no-repeat center center /cover;
+  content: '';
+  
+ 
+  z-index: -1;
+}
+
+.about-h{
+
+   margin: 5em 7em;
+}
+
+.about-paragraph{
+   background-color: white;
+   margin: 5em 25em;
+   font-size: 16px;
+}
+@import url("https://fonts.googleapis.com/css?family=Covered+By+Your+Grace");
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/ignasi_pattern_s.png");
+  font-family: "Covered By Your Grace", cursive;
+ 
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.skills {
+  background-color: white;
+  padding: 2.5em;
+  margin: 5em 10em;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+.skill-level {
+  position: relative;
+  margin-bottom: 5mm;
+}
+.skill-level__bar {
+  position: relative;
+  height: 4mm;
+  width: 100%;
+  margin: 2mm 0;
+  border-radius: 10px;
+  border: 1px solid silver;
+}
+.skill-level__percentage {
+  position: absolute;
+  height: 4mm;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background: steelblue;
+  background: #ff9966;
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+}
+
+
+.skill-level__percentage.twenty {
+  width: 70%;
+  background: #ff9966;
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+}
+
+.skill-level__percentage.fifty {
+  width: 60%;
+  background: #348F50;
+  background: -webkit-linear-gradient(to right, #56B4D3, #348F50);
+  background: linear-gradient(to right, #56B4D3, #348F50);
+}
+
+.skill-level__percentage.ninety {
+  width: 90%;
+  background: #e65c00;
+  background: -webkit-linear-gradient(to right, #F9D423, #e65c00);
+  background: linear-gradient(to right, #F9D423, #e65c00);
+}
+
+
+img{
+  border-radius: 50%;
+  width: 20%;
+  margin-top: 20px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
